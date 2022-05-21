@@ -7,3 +7,6 @@ body {
     color: aliceblue;
     font-family: 'Open Sans', sans-serif;
 }
+.ListTable  th {
+    text-align: left;
+}
