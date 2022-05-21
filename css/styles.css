@@ -10,3 +10,10 @@ body {
 .ListTable  th {
     text-align: left;
 }
+/* hr {
+    border-bottom: none;
+    border-left: none;
+    border-right: none;
+    border-top: 5px;
+    border-style: dotted;
+} */
