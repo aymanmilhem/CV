@@ -87,3 +87,15 @@ contactMeLinkElement.addEventListener("mouseover", function (textHighlight) {
 contactMeLinkElement.addEventListener("mouseout", function (textUnHighlight) {
   contactMeLinkElement.style = "color : aliceblue";
 });
+
+const missionReadyLinkElement = document.getElementById("missionReadyLink");
+missionReadyLinkElement.addEventListener("mouseover", function (textHighlight) {
+  missionReadyLinkElement.style = "color : gold";
+});
+
+missionReadyLinkElement.addEventListener(
+  "mouseout",
+  function (textUnHighlight) {
+    missionReadyLinkElement.style = "color : aliceblue";
+  }
+);

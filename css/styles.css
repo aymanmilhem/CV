@@ -69,3 +69,7 @@ h3 {
     grid-template-columns: 30% 5% 65%;
     justify-content: center;
 }
+
+.titleBooksAndTeaching, .titleWorkExperience, .titleSkills {
+    cursor: pointer;
+}
