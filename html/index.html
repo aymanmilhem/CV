@@ -9,20 +9,25 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@200&family=Open+Sans:wght@300&display=swap"
     rel="stylesheet">
+  <script src="../scripts/script.js" defer></script>
 </head>
 
 <body>
   <div class="topBanner">
-    <img src="../images/ayman.png" alt="Ayman profile picture">
+    <div class="imageDiv">
+      <img src="../images/ayman.png" alt="Ayman profile picture">
+    </div>
     <h1>Ayman Milhem</h1>
     <p><em>Web Development Student at <strong><a href="https://www.missionreadyhq.com/">Mission Ready
             HQ</a></strong>.</em></p>
     <p>Aspiring full stack web developer</p>
   </div>
+  <br>
   <hr>
+
   <div class="bookAndTeachingDiv mainSection">
-    <h3 class="titleBooksAndTeaching">Books and Teaching</h3>
-    <div class="listBooksAndTeaching table">
+    <h3 class="titleBooksAndTeaching" id="titleBooksAndTeaching">Books and Teaching</h3>
+    <div class="listBooksAndTeaching table" id="listBooksAndTeaching">
       <div>Books</div>
       <div>&nbsp;</div>
       <div>No Books</div>
@@ -31,10 +36,11 @@
       <div>Not much teaching, some alleged learning</div>
     </div>
   </div>
+  <br>
   <hr>
   <div class="workExperienceDiv mainSection">
-    <h3 class="titleWorkExperience">Work Experience</h3>
-    <div class="listWorkAndExperience table">
+    <h3 class="titleWorkExperience" id="titleWorkExperience">Work Experience</h3>
+    <div class="listWorkAndExperience table" id="listWorkAndExperience">
       <h4>From</h4>
       <div>&nbsp;</div>
       <h4>To</h4>
@@ -57,10 +63,11 @@
       <div>Studying Web Development with Mission Ready HQ</div>
     </div>
   </div>
+  <br>
   <hr>
   <div class="skillsDiv mainSection">
-    <h3 class="titleSkills">Skills</h3>
-    <div class="listSkills table">
+    <h3 class="titleSkills" id="titleSkills">Skills</h3>
+    <div class="listSkills table" id="listSkills">
       <div>Python Programming</div>
       <div>&nbsp;</div>
       <div>⭐️</div>
@@ -72,11 +79,19 @@
       <div>⭐️</div>
     </div>
   </div>
+  <br>
   <hr>
+  <br><br>
   <div class="bottomBar">
-    <div class="myHobbiesDiv"><a href="myhobbies.html">My Hobbies</a></div>
+    <div>&nbsp;</div>
+    <div>&nbsp;</div>
+    <div>&nbsp;</div>
+    <div class="myHobbiesDiv"><a href="myhobbies.html" id="myHobbiesLink">My Hobbies</a></div>
     <br><br>
-    <div class="contactMeDiv"><a href="contactme.html">Contact Me</a></div>
+    <div class="contactMeDiv"><a href="contactme.html" id="contactMeLink">Contact Me</a></div>
+    <div>&nbsp;</div>
+    <div>&nbsp;</div>
+    <div>&nbsp;</div>
   </div>
 
 </body>
